@@ -1,4 +1,4 @@
-import BrandsInfo from "../../models/BrandsInfo";
+import BrandsInfo from "/vercel/path0/pages/api";
 import connectDb from "../../middleware/mongoose";
 
 const handler = async (req, res) => {

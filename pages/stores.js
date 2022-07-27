@@ -333,7 +333,7 @@ const Stores = ({ brands_09, brands_A, brands_B, brands_C, brands_D, brands_E, b
                   </div>
                   <div className='flex justify-center items-center pb-10'>
                     <Link href={`/stores/${item}`}>
-                      <a><p className='text-indigo-400'>All shops with "{item}"</p></a>
+                      <a><p className='text-indigo-400'>All shops with {item}</p></a>
                     </Link>
                   </div>
                 </div>

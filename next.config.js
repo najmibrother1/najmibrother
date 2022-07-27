@@ -1,11 +1,8 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  /* config options here */
+}
 
-module.exports = {
-	reactStricktMode: false,
-	webpack5: true,
-	webpack: (config) => {
-		config.resolve.fallback = { fs: false };
-
-		return config;
-		},
-};
+module.exports = nextConfig

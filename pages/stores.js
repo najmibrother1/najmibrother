@@ -109,7 +109,7 @@ const Stores = ({ brands_09, brands_A, brands_B, brands_C, brands_D, brands_E, b
                 brands = brands_Z
               }
               return (
-                <div  className='bg-white border-b-2'>
+                <div key={item.id} className='bg-white border-b-2'>
                   <div className='w-full p-6'>
                     <h1 className='text-gray-500 text-3xl'>{item}</h1>
                   </div>
